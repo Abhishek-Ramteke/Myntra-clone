@@ -1,0 +1,27 @@
+#mainwomen{
+    box-shadow: 0 0 10px #f6f6f6;
+    cursor: default;
+    display: none;
+}
+.womenhoverdropdown:hover #mainwomen{
+    display: block;
+}
+#womenh1{
+    color: #f743ca;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+}
+.womenp{
+    color: #717288;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: 4px;
+}
+.womenp:hover{
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+}
