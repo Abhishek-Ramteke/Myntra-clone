@@ -1,0 +1,27 @@
+#mainkids{
+    box-shadow: 0 0 10px #f6f6f6;
+    cursor: default;
+    display: none;
+}
+.kidshoverdropdown:hover #mainkids{
+    display: block;
+}
+#kidsh1{
+    color: #F26A10;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+}
+.kidsp{
+    color: #717288;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: 4px;
+}
+.kidsp:hover{
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+}

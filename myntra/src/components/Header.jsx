@@ -4,6 +4,7 @@ import  '../styles/header.css'
 import Menhover from './Menhover'
 import { Link } from 'react-router-dom'
 import Womenhover from './Womenhover'
+import Kidshover from './Kidshover'
 
 export default function Header() {
   return (
@@ -18,7 +19,7 @@ export default function Header() {
             <div className='px-[18px] cursor-pointer'>
                 <a className='font-bold text-[13px] womenhoverdropdown'>WOMEN<Womenhover/></a></div>
             <div className='px-[18px] cursor-pointer'>
-                <a className='font-bold text-[13px]'>KIDS</a></div>
+                <a className='font-bold text-[13px] kidshoverdropdown'>KIDS<Kidshover/></a></div>
             <div className='px-[18px] cursor-pointer'>
                 <a className='font-bold text-[13px]'>HOME AND LIVING</a></div>
             <div className='px-[18px] cursor-pointer'>
