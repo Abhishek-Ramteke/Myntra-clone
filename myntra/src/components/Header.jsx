@@ -5,6 +5,9 @@ import Menhover from './Menhover'
 import { Link } from 'react-router-dom'
 import Womenhover from './Womenhover'
 import Kidshover from './Kidshover'
+import HomeLivinghover from './HomeLivinghover'
+
+
 
 export default function Header() {
   return (
@@ -21,7 +24,7 @@ export default function Header() {
             <div className='px-[18px] cursor-pointer'>
                 <a className='font-bold text-[13px] kidshoverdropdown'>KIDS<Kidshover/></a></div>
             <div className='px-[18px] cursor-pointer'>
-                <a className='font-bold text-[13px]'>HOME AND LIVING</a></div>
+                <a className='font-bold text-[13px] homelivinghoverdropdown'>HOME AND LIVING<HomeLivinghover/></a></div>
             <div className='px-[18px] cursor-pointer'>
                 <a className='font-bold text-[13px]'>BEAUTY</a></div>
             <div className='px-[18px] cursor-pointer'>
