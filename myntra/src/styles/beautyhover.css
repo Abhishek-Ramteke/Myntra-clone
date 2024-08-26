@@ -1,0 +1,27 @@
+#mainbeauty{
+    box-shadow: 0 0 10px #f6f6f6;
+    cursor: default;
+    display: none;
+}
+.beautyhoverdropdown:hover #mainbeauty{
+    display: block;
+}
+#beautyh1{
+    color: #0DB7AF;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+}
+.beautyp{
+    color: #717288;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: 4px;
+}
+.beautyp:hover{
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+}
