@@ -8,12 +8,14 @@ import image4 from '../banner/image4.webp'
 import image5 from '../banner/image5.webp'
 import image6 from '../banner/image6.webp'
 import image7 from '../banner/image7.webp'
+import Footer from './Footer'
 
 
 export default function Home() {
   return (
     <div>
     <Header/>
+    <div className='mt-[120px]'>
         <div className='mx-[60px] h-[90px] mt-[25px]'>
             <img src={image1}/>
         </div>
@@ -35,6 +37,8 @@ export default function Home() {
         <div>
         <img src={image7}/>
         </div>
+        </div>
+        <Footer/>
     </div>
   )
 }

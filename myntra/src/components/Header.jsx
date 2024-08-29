@@ -12,9 +12,9 @@ import Beautyhover from './Beautyhover'
 
 export default function Header() {
   return (
-   <>
- 
-    <div className="flex h-[80px] font-sans shadow-black" >
+   <div>
+    <header className='fixed w-[100%] top-[0] left-[0] shadow-md z-10'>
+    <div className="flex h-[80px] font-sans shadow-black bg-white" >
         <div className='w-[10%] flex justify-center items-center'>
             <Link to='/'><img className='h-[40px]' src={logo}/></Link></div>
         <div className='w-[50%]  flex row items-center'>
@@ -88,6 +88,7 @@ export default function Header() {
             </div>
         </div>
     </div>
-   </>
+    </header>
+   </div>
   )
 }
