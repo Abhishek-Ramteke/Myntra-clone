@@ -5,9 +5,9 @@ export default function
 () {
   return (
     <div>
-        <div className='absolute top-[90px] right-[110px]  h-[430px] w-[1130px]' id='mainhomeliving'>
-           <div className='absolute bg-white h-[41px] w-[160px] rounded ml-[243px] top-[-44px] cursor-pointer'></div>
-          <div className='bg-[#F2C210] h-[4px] w-[160px] rounded ml-[243px] mt-[-3px]'>
+        <div className='absolute top-[87px] right-[110px]  h-[430px] w-[1130px]' id='mainhomeliving'>
+           <div className='absolute bg-white  h-[35px] w-[160px] rounded ml-[243px] top-[-41px] cursor-pointer'></div>
+          <div className='bg-[#F2C210] h-[4px] w-[160px] rounded ml-[243px] mt-[-6px]'>
           </div>
             <div className='flex '>
                 <div className='w-[20%] h-[430px] bg-white pt-[20px] pl-[40px]'>

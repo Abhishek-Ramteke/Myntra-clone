@@ -6,8 +6,8 @@ export default function
   return (
     <div>
       <div className='absolute top-[90px] right-[110px]  h-[430px] w-[1130px]' id='mainbeauty'>
-           <div className='absolute bg-white h-[41px] w-[70px] rounded ml-[408px] top-[-44px] cursor-pointer'></div>
-          <div className='bg-[#0DB7AF] h-[4px] w-[70px] rounded ml-[408px] mt-[-3px]'>
+           <div className='absolute bg-white h-[35px] w-[70px] rounded ml-[408px] top-[-44px] cursor-pointer'></div>
+          <div className='bg-[#0DB7AF] h-[4px] w-[70px] rounded ml-[408px] mt-[-9px]'>
           </div>
             <div className='flex '>
                 <div className='w-[20%] h-[430px] bg-white pt-[20px] pl-[40px]'>

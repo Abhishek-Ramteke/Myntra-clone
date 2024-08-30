@@ -7,8 +7,8 @@ export default function Menhover() {
     <div>
        
       <div className='absolute top-[90px] right-[110px]  h-[430px] w-[1130px]' id='main'>
-           <div className='absolute bg-white h-[41px] w-[75px] rounded ml-[20px] top-[-44px] cursor-pointer'></div>
-          <div className='bg-[#ff3f6c] h-[4px] w-[55px] rounded ml-[32px] mt-[-3px]'>
+           <div className='absolute bg-white h-[35px] w-[75px] rounded ml-[20px] top-[-44px] cursor-pointer'></div>
+          <div className='bg-[#ff3f6c] h-[4px] w-[55px] rounded ml-[32px] mt-[-9px]'>
           </div>
             <div className='flex '>
                 <div className='w-[20%] h-[430px] bg-white pt-[20px] pl-[40px]'>
